@@ -14,6 +14,7 @@
 		8C8DCD811FD754ED004B8B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8DCD7F1FD754ED004B8B70 /* LaunchScreen.storyboard */; };
 		8C8DCD8C1FD754EE004B8B70 /* Leaflet_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8DCD8B1FD754EE004B8B70 /* Leaflet_iOSTests.swift */; };
 		8C8DCD971FD754EE004B8B70 /* Leaflet_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8DCD961FD754EE004B8B70 /* Leaflet_iOSUITests.swift */; };
+		8C8DCDA91FD75E9A004B8B70 /* node in Resources */ = {isa = PBXBuildFile; fileRef = 8C8DCDA81FD75E9A004B8B70 /* node */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8C8DCD921FD754EE004B8B70 /* Leaflet-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Leaflet-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8DCD961FD754EE004B8B70 /* Leaflet_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaflet_iOSUITests.swift; sourceTree = "<group>"; };
 		8C8DCD981FD754EE004B8B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C8DCDA81FD75E9A004B8B70 /* node */ = {isa = PBXFileReference; lastKnownFileType = folder; path = node; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		8C8DCD751FD754ED004B8B70 /* Leaflet-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				8C8DCDA81FD75E9A004B8B70 /* node */,
 				8C8DCD761FD754ED004B8B70 /* AppDelegate.swift */,
 				8C8DCD781FD754ED004B8B70 /* ViewController.swift */,
 				8C8DCD7A1FD754ED004B8B70 /* Main.storyboard */,
@@ -234,6 +237,7 @@
 			files = (
 				8C8DCD811FD754ED004B8B70 /* LaunchScreen.storyboard in Resources */,
 				8C8DCD7E1FD754ED004B8B70 /* Assets.xcassets in Resources */,
+				8C8DCDA91FD75E9A004B8B70 /* node in Resources */,
 				8C8DCD7C1FD754ED004B8B70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
