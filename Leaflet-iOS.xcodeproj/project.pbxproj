@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C8DCD771FD754ED004B8B70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8DCD761FD754ED004B8B70 /* AppDelegate.swift */; };
+		8C8DCD791FD754ED004B8B70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8DCD781FD754ED004B8B70 /* ViewController.swift */; };
+		8C8DCD7C1FD754ED004B8B70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8DCD7A1FD754ED004B8B70 /* Main.storyboard */; };
+		8C8DCD7E1FD754ED004B8B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8DCD7D1FD754ED004B8B70 /* Assets.xcassets */; };
+		8C8DCD811FD754ED004B8B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8DCD7F1FD754ED004B8B70 /* LaunchScreen.storyboard */; };
+		8C8DCD8C1FD754EE004B8B70 /* Leaflet_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8DCD8B1FD754EE004B8B70 /* Leaflet_iOSTests.swift */; };
+		8C8DCD971FD754EE004B8B70 /* Leaflet_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8DCD961FD754EE004B8B70 /* Leaflet_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C8DCD881FD754EE004B8B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C8DCD6B1FD754ED004B8B70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C8DCD721FD754ED004B8B70;
+			remoteInfo = "Leaflet-iOS";
+		};
+		8C8DCD931FD754EE004B8B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C8DCD6B1FD754ED004B8B70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C8DCD721FD754ED004B8B70;
+			remoteInfo = "Leaflet-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C8DCD731FD754ED004B8B70 /* Leaflet-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leaflet-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8DCD761FD754ED004B8B70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C8DCD781FD754ED004B8B70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C8DCD7B1FD754ED004B8B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C8DCD7D1FD754ED004B8B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C8DCD801FD754ED004B8B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C8DCD821FD754ED004B8B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C8DCD871FD754EE004B8B70 /* Leaflet-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Leaflet-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8DCD8B1FD754EE004B8B70 /* Leaflet_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaflet_iOSTests.swift; sourceTree = "<group>"; };
+		8C8DCD8D1FD754EE004B8B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C8DCD921FD754EE004B8B70 /* Leaflet-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Leaflet-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8DCD961FD754EE004B8B70 /* Leaflet_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaflet_iOSUITests.swift; sourceTree = "<group>"; };
+		8C8DCD981FD754EE004B8B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C8DCD701FD754ED004B8B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8DCD841FD754EE004B8B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8DCD8F1FD754EE004B8B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C8DCD6A1FD754ED004B8B70 = {
+			isa = PBXGroup;
+			children = (
+				8C8DCD751FD754ED004B8B70 /* Leaflet-iOS */,
+				8C8DCD8A1FD754EE004B8B70 /* Leaflet-iOSTests */,
+				8C8DCD951FD754EE004B8B70 /* Leaflet-iOSUITests */,
+				8C8DCD741FD754ED004B8B70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C8DCD741FD754ED004B8B70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C8DCD731FD754ED004B8B70 /* Leaflet-iOS.app */,
+				8C8DCD871FD754EE004B8B70 /* Leaflet-iOSTests.xctest */,
+				8C8DCD921FD754EE004B8B70 /* Leaflet-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C8DCD751FD754ED004B8B70 /* Leaflet-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8C8DCD761FD754ED004B8B70 /* AppDelegate.swift */,
+				8C8DCD781FD754ED004B8B70 /* ViewController.swift */,
+				8C8DCD7A1FD754ED004B8B70 /* Main.storyboard */,
+				8C8DCD7D1FD754ED004B8B70 /* Assets.xcassets */,
+				8C8DCD7F1FD754ED004B8B70 /* LaunchScreen.storyboard */,
+				8C8DCD821FD754ED004B8B70 /* Info.plist */,
+			);
+			path = "Leaflet-iOS";
+			sourceTree = "<group>";
+		};
+		8C8DCD8A1FD754EE004B8B70 /* Leaflet-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C8DCD8B1FD754EE004B8B70 /* Leaflet_iOSTests.swift */,
+				8C8DCD8D1FD754EE004B8B70 /* Info.plist */,
+			);
+			path = "Leaflet-iOSTests";
+			sourceTree = "<group>";
+		};
+		8C8DCD951FD754EE004B8B70 /* Leaflet-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C8DCD961FD754EE004B8B70 /* Leaflet_iOSUITests.swift */,
+				8C8DCD981FD754EE004B8B70 /* Info.plist */,
+			);
+			path = "Leaflet-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C8DCD721FD754ED004B8B70 /* Leaflet-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8DCD9B1FD754EE004B8B70 /* Build configuration list for PBXNativeTarget "Leaflet-iOS" */;
+			buildPhases = (
+				8C8DCD6F1FD754ED004B8B70 /* Sources */,
+				8C8DCD701FD754ED004B8B70 /* Frameworks */,
+				8C8DCD711FD754ED004B8B70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Leaflet-iOS";
+			productName = "Leaflet-iOS";
+			productReference = 8C8DCD731FD754ED004B8B70 /* Leaflet-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C8DCD861FD754EE004B8B70 /* Leaflet-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8DCD9E1FD754EE004B8B70 /* Build configuration list for PBXNativeTarget "Leaflet-iOSTests" */;
+			buildPhases = (
+				8C8DCD831FD754EE004B8B70 /* Sources */,
+				8C8DCD841FD754EE004B8B70 /* Frameworks */,
+				8C8DCD851FD754EE004B8B70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C8DCD891FD754EE004B8B70 /* PBXTargetDependency */,
+			);
+			name = "Leaflet-iOSTests";
+			productName = "Leaflet-iOSTests";
+			productReference = 8C8DCD871FD754EE004B8B70 /* Leaflet-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C8DCD911FD754EE004B8B70 /* Leaflet-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8DCDA11FD754EE004B8B70 /* Build configuration list for PBXNativeTarget "Leaflet-iOSUITests" */;
+			buildPhases = (
+				8C8DCD8E1FD754EE004B8B70 /* Sources */,
+				8C8DCD8F1FD754EE004B8B70 /* Frameworks */,
+				8C8DCD901FD754EE004B8B70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C8DCD941FD754EE004B8B70 /* PBXTargetDependency */,
+			);
+			name = "Leaflet-iOSUITests";
+			productName = "Leaflet-iOSUITests";
+			productReference = 8C8DCD921FD754EE004B8B70 /* Leaflet-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C8DCD6B1FD754ED004B8B70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = xhe585;
+				TargetAttributes = {
+					8C8DCD721FD754ED004B8B70 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8C8DCD861FD754EE004B8B70 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8C8DCD721FD754ED004B8B70;
+					};
+					8C8DCD911FD754EE004B8B70 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8C8DCD721FD754ED004B8B70;
+					};
+				};
+			};
+			buildConfigurationList = 8C8DCD6E1FD754ED004B8B70 /* Build configuration list for PBXProject "Leaflet-iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C8DCD6A1FD754ED004B8B70;
+			productRefGroup = 8C8DCD741FD754ED004B8B70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C8DCD721FD754ED004B8B70 /* Leaflet-iOS */,
+				8C8DCD861FD754EE004B8B70 /* Leaflet-iOSTests */,
+				8C8DCD911FD754EE004B8B70 /* Leaflet-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C8DCD711FD754ED004B8B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8DCD811FD754ED004B8B70 /* LaunchScreen.storyboard in Resources */,
+				8C8DCD7E1FD754ED004B8B70 /* Assets.xcassets in Resources */,
+				8C8DCD7C1FD754ED004B8B70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8DCD851FD754EE004B8B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8DCD901FD754EE004B8B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C8DCD6F1FD754ED004B8B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8DCD791FD754ED004B8B70 /* ViewController.swift in Sources */,
+				8C8DCD771FD754ED004B8B70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8DCD831FD754EE004B8B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8DCD8C1FD754EE004B8B70 /* Leaflet_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8DCD8E1FD754EE004B8B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8DCD971FD754EE004B8B70 /* Leaflet_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C8DCD891FD754EE004B8B70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C8DCD721FD754ED004B8B70 /* Leaflet-iOS */;
+			targetProxy = 8C8DCD881FD754EE004B8B70 /* PBXContainerItemProxy */;
+		};
+		8C8DCD941FD754EE004B8B70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C8DCD721FD754ED004B8B70 /* Leaflet-iOS */;
+			targetProxy = 8C8DCD931FD754EE004B8B70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C8DCD7A1FD754ED004B8B70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C8DCD7B1FD754ED004B8B70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C8DCD7F1FD754ED004B8B70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C8DCD801FD754ED004B8B70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C8DCD991FD754EE004B8B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C8DCD9A1FD754EE004B8B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C8DCD9C1FD754EE004B8B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Leaflet-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xhe585.Leaflet-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C8DCD9D1FD754EE004B8B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Leaflet-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xhe585.Leaflet-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C8DCD9F1FD754EE004B8B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Leaflet-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xhe585.Leaflet-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leaflet-iOS.app/Leaflet-iOS";
+			};
+			name = Debug;
+		};
+		8C8DCDA01FD754EE004B8B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Leaflet-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xhe585.Leaflet-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leaflet-iOS.app/Leaflet-iOS";
+			};
+			name = Release;
+		};
+		8C8DCDA21FD754EE004B8B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Leaflet-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xhe585.Leaflet-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Leaflet-iOS";
+			};
+			name = Debug;
+		};
+		8C8DCDA31FD754EE004B8B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Leaflet-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xhe585.Leaflet-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Leaflet-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C8DCD6E1FD754ED004B8B70 /* Build configuration list for PBXProject "Leaflet-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8DCD991FD754EE004B8B70 /* Debug */,
+				8C8DCD9A1FD754EE004B8B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8DCD9B1FD754EE004B8B70 /* Build configuration list for PBXNativeTarget "Leaflet-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8DCD9C1FD754EE004B8B70 /* Debug */,
+				8C8DCD9D1FD754EE004B8B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8DCD9E1FD754EE004B8B70 /* Build configuration list for PBXNativeTarget "Leaflet-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8DCD9F1FD754EE004B8B70 /* Debug */,
+				8C8DCDA01FD754EE004B8B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8DCDA11FD754EE004B8B70 /* Build configuration list for PBXNativeTarget "Leaflet-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8DCDA21FD754EE004B8B70 /* Debug */,
+				8C8DCDA31FD754EE004B8B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C8DCD6B1FD754ED004B8B70 /* Project object */;
+}
